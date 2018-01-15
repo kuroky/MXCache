@@ -28,6 +28,7 @@ static NSString *const kCellId  =   @"cellId";
     self.model = [TestModel new];
     NSLog(@"init model :%@ %@ %@", self.model.name, self.model.age, self.model.address);
     self.modelKey = @"model";
+    [[MXCache sharedCache] mx_removeCacheForKey:self.modelKey];
     self.dataList = @[@"set model(memory)",
                       @"get model(memory)",
                       @"remove model(memory)",
@@ -91,7 +92,7 @@ static NSString *const kCellId  =   @"cellId";
 
 @end
 
-@interface TestModel () <NSCoding, NSCopying>
+@interface TestModel () <NSCoding>
 
 @end
 
@@ -158,6 +159,7 @@ static NSString *const kCellId  =   @"cellId";
     [aCoder encodeObject:self.address forKey:@"address"];
 }
 
+/*
 - (id)copyWithZone:(NSZone *)zone {
     TestModel *model = [[self class] allocWithZone:zone];
     model.name = [self.name copy];
@@ -165,5 +167,5 @@ static NSString *const kCellId  =   @"cellId";
     model.address = [self.address copy];
     return model;
 }
-
+*/
 @end

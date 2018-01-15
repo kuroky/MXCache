@@ -48,9 +48,14 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
     [self.yyCache.diskCache setAgeLimit:kDiskCacheExpirytime];
 }
 
-//MARK:- 读取当前key的缓存
-- (id)mx_objectForKey:(NSString *)key {
-    return [self.yyCache objectForKey:key];
+//MARK:- 读取当前key的缓存(内存)
+- (id)mx_memoryCacheForKey:(NSString *)key {
+    return [self.yyCache.memoryCache objectForKey:key];
+}
+
+//MARK:- 读取当前key的缓存(磁盘)
+- (id)mx_diskCacheForKey:(NSString *)key {
+    return [self.yyCache.diskCache objectForKey:key];
 }
 
 //MARK:- 当前key的缓存是否存在

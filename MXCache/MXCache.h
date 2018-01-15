@@ -18,12 +18,20 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedCache;
 
 /**
- 读取当前key的缓存
+ 读取当前key的缓存(内存)
  
  @param key 缓存的key
  @return 缓存值
  */
-- (id)mx_objectForKey:(NSString *)key;
+- (id)mx_memoryCacheForKey:(NSString *)key;
+
+/**
+ 读取当前key的缓存(磁盘)
+ 
+ @param key 缓存的key
+ @return 缓存值
+ */
+- (id)mx_diskCacheForKey:(NSString *)key;
 
 /**
  当前key的缓存是否存在

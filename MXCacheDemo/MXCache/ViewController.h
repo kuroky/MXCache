@@ -13,3 +13,12 @@
 
 @end
 
+@interface TestModel : NSObject
+
+@property (copy, nonatomic) NSString *name;
+
+@property (strong, nonatomic) NSNumber *age;
+
+@property (copy, nonatomic) NSString *address;
+
+@end

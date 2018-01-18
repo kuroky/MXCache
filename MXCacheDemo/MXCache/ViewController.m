@@ -92,7 +92,7 @@ static NSString *const kCellId  =   @"cellId";
 
 @end
 
-@interface TestModel () <NSCoding>
+@interface TestModel () <NSCoding, NSCopying>
 
 @end
 
@@ -159,7 +159,6 @@ static NSString *const kCellId  =   @"cellId";
     [aCoder encodeObject:self.address forKey:@"address"];
 }
 
-/*
 - (id)copyWithZone:(NSZone *)zone {
     TestModel *model = [[self class] allocWithZone:zone];
     model.name = [self.name copy];
@@ -167,5 +166,5 @@ static NSString *const kCellId  =   @"cellId";
     model.address = [self.address copy];
     return model;
 }
-*/
+
 @end

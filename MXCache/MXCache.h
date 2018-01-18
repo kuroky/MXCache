@@ -15,6 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface MXCache : NSObject
 
+/**
+ MXCache
+
+ @return MXCache 初始化
+ */
 + (instancetype)sharedCache;
 
 /**

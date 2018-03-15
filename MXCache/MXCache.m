@@ -96,6 +96,11 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
     [self.yyCache removeObjectForKey:key];
 }
 
+//MARK:- 移除内存缓存
+- (void)mx_removeMemoryCache {
+    [self.yyCache.memoryCache removeAllObjects];
+}
+
 //MARK: - 异步读取磁盘缓存
 - (void)mx_objectForKey:(NSString *)key
               withBlock:(void (^)(id<NSCoding> object))block {

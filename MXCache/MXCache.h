@@ -95,6 +95,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)mx_removeCacheForKey:(NSString *)key;
 
+/**
+ 移除内存缓存
+ */
+- (void)mx_removeMemoryCache;
+
 #pragma mark 大数据异步
 
 /**

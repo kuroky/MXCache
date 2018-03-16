@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MXCache"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "基于YYCache的缓存轻量封装"
 
   # This description is used to generate tags and improve search results.

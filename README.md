@@ -10,7 +10,7 @@
 - 把`MXCache`拖入项目
 
 ### 使用说明
-![说明](https://github.com/kuroky/MXCache/blob/master/2018-10-09.png)
+![提示](https://github.com/kuroky/MXCache/blob/master/2018-10-09.png)
 
 ```
 /**

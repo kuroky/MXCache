@@ -3,10 +3,10 @@
 #### 1.CocoaPod安装
 
 ```
-...
+暂不支持
 ```
 #### 2.手动安装
-- 在项目中添加`YYCache`，`pod 'YYCache', '~> 1.0.4'`
+- 在项目中添加`YYCache`，`pod 'YYCache', ' 1.0.4'`
 - 把`MXCache`拖入项目
 
 ### 使用说明

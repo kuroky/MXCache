@@ -28,15 +28,16 @@ static NSString *const kCellId  =   @"cellId";
     self.model = [TestModel new];
     NSLog(@"init model :%@ %@ %@", self.model.name, self.model.age, self.model.address);
     self.modelKey = @"model";
-    [[MXCache sharedCache] mx_removeCacheForKey:self.modelKey];
-    self.dataList = @[@"set model(memory)",
-                      @"get model(memory)",
-                      @"remove model(memory)",
-                      @"set model(disk)",
-                      @"get model(disk)",
-                      @"remove model(disk)",
-                      @"set model",
-                      @"remove model"];
+    [[MXCache sharedCache] mx_removeCacheForKey:self.modelKey]; // 清除c缓存
+    self.dataList = @[@"save model to memory",
+                      @"get model from memory",
+                      @"remove model of memory",
+                      @"save model to disk",
+                      @"get model from disk",
+                      @"remove model of disk",
+                      @"save model to memory and disk",
+                      @"get model to memory and disk",
+                      @"remove model of memory and disk"];
     self.tableView.rowHeight = 50;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCellId];
 }
@@ -81,6 +82,10 @@ static NSString *const kCellId  =   @"cellId";
                                      forKey:self.modelKey];
     }
     else if (indexPath.row == 7) {
+        TestModel *model = [[MXCache sharedCache] mx_cacheForKey:self.modelKey];
+        NSLog(@"cache model :%@ %@ %@", model.name, model.age, model.address);
+    }
+    else if (indexPath.row == 8) {
         [[MXCache sharedCache] mx_removeCacheForKey:self.modelKey];
     }
 }

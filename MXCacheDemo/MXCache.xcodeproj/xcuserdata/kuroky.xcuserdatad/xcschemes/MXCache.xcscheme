@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5AF2B9F5137211816256804E17B19BE1"
-               BuildableName = "libPods-MXCache.a"
-               BlueprintName = "Pods-MXCache"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "5B6C0E8A20086E2C00232C09"
+               BuildableName = "MXCache.app"
+               BlueprintName = "MXCache"
+               ReferencedContainer = "container:MXCache.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,6 +29,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B6C0E8A20086E2C00232C09"
+            BuildableName = "MXCache.app"
+            BlueprintName = "MXCache"
+            ReferencedContainer = "container:MXCache.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -42,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5AF2B9F5137211816256804E17B19BE1"
-            BuildableName = "libPods-MXCache.a"
-            BlueprintName = "Pods-MXCache"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "5B6C0E8A20086E2C00232C09"
+            BuildableName = "MXCache.app"
+            BlueprintName = "MXCache"
+            ReferencedContainer = "container:MXCache.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B6C0E8A20086E2C00232C09"
+            BuildableName = "MXCache.app"
+            BlueprintName = "MXCache"
+            ReferencedContainer = "container:MXCache.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

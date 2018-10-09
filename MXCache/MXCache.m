@@ -48,16 +48,6 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
     [self.yyCache.diskCache setAgeLimit:kDiskCacheExpirytime];
 }
 
-//MARK:- 读取当前key的缓存(内存)
-- (id)mx_memoryCacheForKey:(NSString *)key {
-    return [self.yyCache.memoryCache objectForKey:key];
-}
-
-//MARK:- 读取当前key的缓存(磁盘)
-- (id)mx_diskCacheForKey:(NSString *)key {
-    return [self.yyCache.diskCache objectForKey:key];
-}
-
 //MARK:- 当前key的缓存是否存在
 - (BOOL)mx_containsObjectForKey:(NSString *)key {
     return [self.yyCache containsObjectForKey:key];
@@ -67,6 +57,11 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
 - (void)mx_setObjectMemory:(id)object
                     forKey:(NSString *)key {
     [self.yyCache.memoryCache setObject:object forKey:key];
+}
+
+//MARK:- 读取当前key的缓存(内存)
+- (id)mx_memoryCacheForKey:(NSString *)key {
+    return [self.yyCache.memoryCache objectForKey:key];
 }
 
 //MARK:- 移除内存中的对应key缓存
@@ -80,6 +75,11 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
     [self.yyCache.diskCache setObject:object forKey:key];
 }
 
+//MARK:- 读取当前key的缓存(磁盘)
+- (id)mx_diskCacheForKey:(NSString *)key {
+    return [self.yyCache.diskCache objectForKey:key];
+}
+
 //MARK:- 移除磁盘中的对应key缓存
 - (void)mx_removeDiskCacheForKey:(NSString *)key {
     [self.yyCache.diskCache removeObjectForKey:key];
@@ -89,6 +89,11 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
 - (void)mx_setObject:(id)object
               forKey:(NSString *)key {
     [self.yyCache setObject:object forKey:key];
+}
+
+//MARK:- 读取当前key的缓存
+- (id)mx_cacheForKey:(NSString *)key {
+    return [self.yyCache objectForKey:key];
 }
 
 //MARK:- 移除缓存
@@ -101,17 +106,19 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
     [self.yyCache.memoryCache removeAllObjects];
 }
 
-//MARK: - 异步读取磁盘缓存
-- (void)mx_objectForKey:(NSString *)key
-              withBlock:(void (^)(id<NSCoding> object))block {
-    [_yyCache.diskCache objectForKey:key
-                           withBlock:^(NSString *key, id<NSCoding> object) {
-                               if (block) {
-                                   dispatch_async(dispatch_get_main_queue(), ^{
-                                       block(object);
-                                   });
-                               }
-                           }];
+#pragma mark 异步
+
+//MARK: - 异步判断磁盘缓存是否存在
+- (void)mx_containsObjectForKey:(NSString *)key
+                      withBlock:(void (^)(BOOL contains))block {
+    [_yyCache.diskCache containsObjectForKey:key
+                                   withBlock:^(NSString * _Nonnull key, BOOL contains) {
+                                       if (block) {
+                                           dispatch_async(dispatch_get_main_queue(), ^{
+                                               block(contains);
+                                           });
+                                       }
+                                   }];
 }
 
 //MARK: - 异步数据缓存到磁盘
@@ -129,17 +136,17 @@ static NSInteger const kDiskCacheExpirytime   =   259200; // 磁盘缓存过期�
                         }];
 }
 
-//MARK: - 异步判断磁盘缓存是否存在
-- (void)mx_containsObjectForKey:(NSString *)key
-                      withBlock:(void (^)(BOOL contains))block {
-    [_yyCache.diskCache containsObjectForKey:key
-                                   withBlock:^(NSString * _Nonnull key, BOOL contains) {
-                                       if (block) {
-                                           dispatch_async(dispatch_get_main_queue(), ^{
-                                               block(contains);
-                                           });
-                                       }
-                                   }];
+//MARK: - 异步读取磁盘缓存
+- (void)mx_objectForKey:(NSString *)key
+              withBlock:(void (^)(id<NSCoding> object))block {
+    [_yyCache.diskCache objectForKey:key
+                           withBlock:^(NSString *key, id<NSCoding> object) {
+                               if (block) {
+                                   dispatch_async(dispatch_get_main_queue(), ^{
+                                       block(object);
+                                   });
+                               }
+                           }];
 }
 
 //MARK: - 异步删除磁盘缓存

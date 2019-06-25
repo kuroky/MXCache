@@ -23,6 +23,22 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedCache;
 
 /**
+ 读取当前key的缓存(内存)
+ 
+ @param key 缓存的key
+ @return 缓存值
+ */
+- (id)mx_memoryCacheForKey:(NSString *)key;
+
+/**
+ 读取当前key的缓存(磁盘)
+ 
+ @param key 缓存的key
+ @return 缓存值
+ */
+- (id)mx_diskCacheForKey:(NSString *)key;
+
+/**
  当前key的缓存是否存在
  
  @param key 缓存的key
@@ -39,13 +55,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)mx_setObjectMemory:(id)object
                     forKey:(NSString *)key;
 
-/**
- 读取当前key的缓存(内存)
- 
- @param key 缓存的key
- @return 缓存值
- */
-- (id)mx_memoryCacheForKey:(NSString *)key;
 
 /**
  移除内存中的对应key缓存
@@ -64,15 +73,6 @@ NS_ASSUME_NONNULL_BEGIN
                   forKey:(NSString *)key;
 
 /**
- 读取当前key的缓存(磁盘)
- 
- @param key 缓存的key
- @return 缓存值
- */
-- (id)mx_diskCacheForKey:(NSString *)key;
-
-
-/**
  移除磁盘中的对应key缓存
  
  @param key 缓存的key
@@ -89,14 +89,6 @@ NS_ASSUME_NONNULL_BEGIN
               forKey:(NSString *)key;
 
 /**
- 读取当前key的缓存
-
- @param key 缓存的key
- @return 缓存值
- */
-- (id)mx_cacheForKey:(NSString *)key;
-
-/**
  移除缓存
  
  @param key 缓存的key
@@ -108,16 +100,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)mx_removeMemoryCache;
 
-#pragma mark 异步
+#pragma mark 大数据异步
 
 /**
- 判断磁盘缓存是否存在
+ 读取磁盘缓存 异步
  
  @param key 缓存的key
- @param block block
+ @param block blcok
  */
-- (void)mx_containsObjectForKey:(NSString *)key
-                      withBlock:(void (^)(BOOL contains))block;
+- (void)mx_objectForKey:(NSString *)key
+              withBlock:(void (^)(id<NSCoding> object))block;
 
 /**
  插入数据
@@ -131,13 +123,13 @@ NS_ASSUME_NONNULL_BEGIN
            withBlock:(void (^)(BOOL finish))block;
 
 /**
- 读取磁盘缓存 异步
+ 判断磁盘缓存是否存在
  
  @param key 缓存的key
- @param block blcok
+ @param block block
  */
-- (void)mx_objectForKey:(NSString *)key
-              withBlock:(void (^)(id<NSCoding> object))block;
+- (void)mx_containsObjectForKey:(NSString *)key
+                      withBlock:(void (^)(BOOL contains))block;
 
 /**
  异步删除指定key的磁盘缓存
@@ -148,4 +140,5 @@ NS_ASSUME_NONNULL_BEGIN
                     withBlock:(void (^)(BOOL finish))block;
 
 @end
+
 NS_ASSUME_NONNULL_END

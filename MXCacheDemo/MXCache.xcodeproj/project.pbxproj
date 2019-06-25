@@ -7,21 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B6C0DA3200C78130084EBCA /* MXCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6C0DA2200C78130084EBCA /* MXCache.m */; };
 		5B6C0E9020086E2C00232C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6C0E8F20086E2C00232C09 /* AppDelegate.m */; };
 		5B6C0E9320086E2C00232C09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6C0E9220086E2C00232C09 /* ViewController.m */; };
 		5B6C0E9820086E2C00232C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C0E9720086E2C00232C09 /* Assets.xcassets */; };
 		5B6C0E9B20086E2C00232C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6C0E9920086E2C00232C09 /* LaunchScreen.storyboard */; };
 		5B6C0E9E20086E2C00232C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6C0E9D20086E2C00232C09 /* main.m */; };
 		5BCC372D2008998200EF87D6 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BCC372C2008998200EF87D6 /* ViewController.xib */; };
-		67D5E88703495A9610BEB6A2 /* libPods-MXCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D162C4369DFC0D86876E9F1 /* libPods-MXCache.a */; };
+		9B42A684944EC9540682BDEC /* Pods_MXCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEAF1BEA41C6DAA0F8D3B3D8 /* Pods_MXCache.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B3CD90C138447D550271543 /* Pods-MXCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-MXCache/Pods-MXCache.release.xcconfig"; sourceTree = "<group>"; };
-		3D162C4369DFC0D86876E9F1 /* libPods-MXCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MXCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B6C0DA1200C78130084EBCA /* MXCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXCache.h; sourceTree = "<group>"; };
-		5B6C0DA2200C78130084EBCA /* MXCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXCache.m; sourceTree = "<group>"; };
 		5B6C0E8B20086E2C00232C09 /* MXCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6C0E8E20086E2C00232C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B6C0E8F20086E2C00232C09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,6 +29,7 @@
 		5B6C0E9D20086E2C00232C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5BCC372C2008998200EF87D6 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		E987C3815EED1C525B05899B /* Pods-MXCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MXCache/Pods-MXCache.debug.xcconfig"; sourceTree = "<group>"; };
+		FEAF1BEA41C6DAA0F8D3B3D8 /* Pods_MXCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67D5E88703495A9610BEB6A2 /* libPods-MXCache.a in Frameworks */,
+				9B42A684944EC9540682BDEC /* Pods_MXCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,19 +47,9 @@
 		087D14D558CE192A015864BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3D162C4369DFC0D86876E9F1 /* libPods-MXCache.a */,
+				FEAF1BEA41C6DAA0F8D3B3D8 /* Pods_MXCache.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		5B6C0DA0200C78130084EBCA /* MXCache */ = {
-			isa = PBXGroup;
-			children = (
-				5B6C0DA1200C78130084EBCA /* MXCache.h */,
-				5B6C0DA2200C78130084EBCA /* MXCache.m */,
-			);
-			name = MXCache;
-			path = ../../MXCache;
 			sourceTree = "<group>";
 		};
 		5B6C0E8220086E2C00232C09 = {
@@ -86,7 +73,6 @@
 		5B6C0E8D20086E2C00232C09 /* MXCache */ = {
 			isa = PBXGroup;
 			children = (
-				5B6C0DA0200C78130084EBCA /* MXCache */,
 				5B6C0E8E20086E2C00232C09 /* AppDelegate.h */,
 				5B6C0E8F20086E2C00232C09 /* AppDelegate.m */,
 				5B6C0E9120086E2C00232C09 /* ViewController.h */,
@@ -120,6 +106,7 @@
 				5B6C0E8720086E2C00232C09 /* Sources */,
 				5B6C0E8820086E2C00232C09 /* Frameworks */,
 				5B6C0E8920086E2C00232C09 /* Resources */,
+				E62678ABCB54DF9FD61F6B52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +182,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E62678ABCB54DF9FD61F6B52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MXCache/Pods-MXCache-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MXCache/MXCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MXCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MXCache/Pods-MXCache-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,7 +210,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6C0E9320086E2C00232C09 /* ViewController.m in Sources */,
-				5B6C0DA3200C78130084EBCA /* MXCache.m in Sources */,
 				5B6C0E9E20086E2C00232C09 /* main.m in Sources */,
 				5B6C0E9020086E2C00232C09 /* AppDelegate.m in Sources */,
 			);

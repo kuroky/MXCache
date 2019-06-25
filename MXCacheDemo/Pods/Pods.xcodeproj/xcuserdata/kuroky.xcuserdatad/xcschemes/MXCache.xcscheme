@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CFDAE6EB02F58B9A37CADCF439AE6082"
-               BuildableName = "YYCache.framework"
-               BlueprintName = "YYCache"
+               BlueprintIdentifier = "75ADF57E9132330153A7D1F25559DC53"
+               BuildableName = "MXCache.framework"
+               BlueprintName = "MXCache"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CFDAE6EB02F58B9A37CADCF439AE6082"
-            BuildableName = "YYCache.framework"
-            BlueprintName = "YYCache"
+            BlueprintIdentifier = "75ADF57E9132330153A7D1F25559DC53"
+            BuildableName = "MXCache.framework"
+            BlueprintName = "MXCache"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

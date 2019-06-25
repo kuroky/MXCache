@@ -82,7 +82,7 @@ static NSString *const kCellId  =   @"cellId";
                                      forKey:self.modelKey];
     }
     else if (indexPath.row == 7) {
-        TestModel *model = [[MXCache sharedCache] mx_cacheForKey:self.modelKey];
+        TestModel *model = [[MXCache sharedCache] mx_diskCacheForKey:self.modelKey];
         NSLog(@"cache model :%@ %@ %@", model.name, model.age, model.address);
     }
     else if (indexPath.row == 8) {

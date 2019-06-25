@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <MXCache.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //[[MXCache sharedCache] mx_mCacheCount:20 mExpirytime:300 dExpirytime:12000];
+    [[MXCache sharedCache] mx_setCachePath:@""];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor blackColor];
     UINavigationController *rootVC = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];

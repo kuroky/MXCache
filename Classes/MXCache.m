@@ -17,11 +17,15 @@
 #define kCahceName [[[NSBundle mainBundle] infoDictionary] valueForKey:(__bridge NSString *)kCFBundleNameKey]
 static NSInteger const kMemoryCacheMaxCount    =   100;  // 内存缓存对象个数上限
 static NSInteger const kMemoryCacheExpirytime   =   600; // 内存缓存过期时间上限 10分钟
-static NSInteger const kDiskCacheExpirytime   =   2592000; // 磁盘缓存过期时间 3天
+static NSInteger const kDiskCacheExpirytime   =   2592000; // 磁盘缓存过期时间 30天
 
 @interface MXCache ()
 
 @property (strong, nonatomic) YYCache *yyCache;
+@property (nonatomic, copy) NSString *cachePath;
+@property (nonatomic, assign) NSInteger mCount;
+@property (nonatomic, assign) NSInteger mExpirytime;
+@property (nonatomic, assign) NSInteger dExpirytime;
 
 @end
 
@@ -39,39 +43,46 @@ static NSInteger const kDiskCacheExpirytime   =   2592000; // 磁盘缓存过期
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [self setup];
+        self.mCount = kMemoryCacheMaxCount;
+        self.mExpirytime = kMemoryCacheExpirytime;
+        self.dExpirytime = kDiskCacheExpirytime;
     }
     return self;
 }
 
-- (void)memoryCacheCount:(NSInteger)count {
-    if (count <= 0) {
-        return;
-    }
-    [self.yyCache.memoryCache setCountLimit:count];
+- (void)mx_setCachePath:(NSString *)path {
+    self.cachePath = path;
+    [self setupCache];
 }
 
-- (void)memoryCacheExpirytime:(NSInteger)timer {
-    if (timer <= 0) {
-        return;
+- (void)mx_mCacheCount:(NSInteger)count
+           mExpirytime:(NSInteger)timer1
+           dExpirytime:(NSInteger)timer2 {
+    if (count > 0) {
+        self.mCount = count;
+        [self.yyCache.memoryCache setCountLimit:count];
     }
-    [self.yyCache.memoryCache setAgeLimit:timer];
+    
+    if (timer1 > 0) {
+        self.mExpirytime = timer1;
+        [self.yyCache.memoryCache setAgeLimit:timer1];
+    }
+    
+    if (timer2 > 0) {
+        self.dExpirytime = timer2;
+        [self.yyCache.diskCache setAgeLimit:timer2];
+    }
 }
 
-- (void)diskCacheExpirytime:(NSInteger)timer {
-    if (timer <= 0) {
-        return;
+- (void)setupCache {
+    if (!self.cachePath || !self.cachePath.length) {
+        NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject;
+        self.cachePath = [cachePath stringByAppendingPathComponent:kCahceName];
     }
-    [self.yyCache.diskCache setAgeLimit:timer];
-}
-
-- (void)setup {
-    NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject;
-    NSString *filePath = [cachePath stringByAppendingPathComponent:kCahceName];
-    self.yyCache = [[YYCache alloc] initWithPath:filePath];
-    [self.yyCache.memoryCache setCountLimit:kMemoryCacheMaxCount];
-    [self.yyCache.memoryCache setAgeLimit:kMemoryCacheExpirytime];
-    [self.yyCache.diskCache setAgeLimit:kDiskCacheExpirytime];
+    self.yyCache = [[YYCache alloc] initWithPath:self.cachePath];
+    [self.yyCache.memoryCache setCountLimit:self.mCount];
+    [self.yyCache.memoryCache setAgeLimit:self.mExpirytime];
+    [self.yyCache.diskCache setAgeLimit:self.dExpirytime];
 }
 
 //MARK:- 读取当前key的缓存(内存)

@@ -1,23 +1,23 @@
 PODS:
-  - MXCache (1.0.1):
+  - MXCaches (1.0.0):
     - YYCache (~> 1.0.4)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
-  - MXCache (from `../`)
+  - MXCaches (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - YYCache
 
 EXTERNAL SOURCES:
-  MXCache:
+  MXCaches:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MXCache: f127545b4a2c14c8f59f9a6104d26356772f49d9
+  MXCaches: 9cf406aaf9eda242243729a78dee03c30e16f522
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: dad48388c8e41ef010c752208ae7033fc99a504a
+PODFILE CHECKSUM: d0488d90fcb79894a9fa77bfc9b3be6fcfd00a39
 
 COCOAPODS: 1.7.2

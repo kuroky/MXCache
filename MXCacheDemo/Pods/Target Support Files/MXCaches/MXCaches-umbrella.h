@@ -12,6 +12,6 @@
 
 #import "MXCache.h"
 
-FOUNDATION_EXPORT double MXCacheVersionNumber;
-FOUNDATION_EXPORT const unsigned char MXCacheVersionString[];
+FOUNDATION_EXPORT double MXCachesVersionNumber;
+FOUNDATION_EXPORT const unsigned char MXCachesVersionString[];
 

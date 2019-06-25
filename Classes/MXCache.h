@@ -23,6 +23,24 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedCache;
 
 /**
+ 设置缓存路径
+
+ @param path file path
+ */
+- (void)mx_setCachePath:(NSString *)path;
+
+/**
+ 缓存设置 可选
+
+ @param count 内存缓存对象个数上限
+ @param timer1 内存缓存过期时间上限
+ @param timer2 磁盘缓存过期时间
+ */
+- (void)mx_mCacheCount:(NSInteger)count
+           mExpirytime:(NSInteger)timer1
+           dExpirytime:(NSInteger)timer2;
+
+/**
  读取当前key的缓存(内存)
  
  @param key 缓存的key

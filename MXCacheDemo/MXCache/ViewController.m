@@ -16,7 +16,7 @@ static NSString *const kCellId  =   @"cellId";
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray *dataList;
 @property (strong, nonatomic) TestModel *model;
-@property (copy, nonatomic) NSString *modelKey;
+@property (copy, nonatomic) NSString *cachekey;
 
 @end
 
@@ -26,9 +26,10 @@ static NSString *const kCellId  =   @"cellId";
     self.navigationItem.title = @"缓存";
     [super viewDidLoad];
     self.model = [TestModel new];
-    NSLog(@"init model :%@ %@ %@", self.model.name, self.model.age, self.model.address);
-    self.modelKey = @"model";
-    [[MXCache sharedCache] mx_removeCacheForKey:self.modelKey]; // 清除c缓存
+    NSLog(@"%@", self.model);
+    self.cachekey = @"model";
+    
+    [[MXCache sharedCache] mx_removeCacheForKey:self.cachekey]; // 清除缓存
     self.dataList = @[@"save model to memory",
                       @"get model from memory",
                       @"remove model of memory",
@@ -36,7 +37,7 @@ static NSString *const kCellId  =   @"cellId";
                       @"get model from disk",
                       @"remove model of disk",
                       @"save model to memory and disk",
-                      @"get model to memory and disk",
+                      @"get model from memory or disk",
                       @"remove model of memory and disk"];
     self.tableView.rowHeight = 50;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCellId];
@@ -57,36 +58,41 @@ static NSString *const kCellId  =   @"cellId";
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (indexPath.row == 0) {
         [[MXCache sharedCache] mx_setObjectMemory:self.model
-                                           forKey:self.modelKey];
+                                           forKey:self.cachekey];
     }
     else if (indexPath.row == 1) {
-        TestModel *model = [[MXCache sharedCache] mx_memoryCacheForKey:self.modelKey];
-        NSLog(@"cache model :%@ %@ %@", model.name, model.age, model.address);
+        TestModel *model = [[MXCache sharedCache] mx_memoryCacheForKey:self.cachekey];
+        NSLog(@"%@", model);
     }
     else if (indexPath.row == 2) {
-        [[MXCache sharedCache] mx_removeMemoryCacheForKey:self.modelKey];
+        [[MXCache sharedCache] mx_removeMemoryCacheForKey:self.cachekey];
+        TestModel *model = [[MXCache sharedCache] mx_memoryCacheForKey:self.cachekey];
+        NSLog(@"%@", model);
     }
     else if (indexPath.row == 3) {
         [[MXCache sharedCache] mx_setObjectDisk:self.model
-                                         forKey:self.modelKey];
+                                         forKey:self.cachekey];
     }
     else if (indexPath.row == 4) {
-        TestModel *model = [[MXCache sharedCache] mx_diskCacheForKey:self.modelKey];
-        NSLog(@"cache model :%@ %@ %@", model.name, model.age, model.address);
+        TestModel *model = [[MXCache sharedCache] mx_diskCacheForKey:self.cachekey];
+        NSLog(@"%@", model);
     }
     else if (indexPath.row == 5) {
-        [[MXCache sharedCache] mx_removeDiskCacheForKey:self.modelKey];
+        [[MXCache sharedCache] mx_removeDiskCacheForKey:self.cachekey];
     }
     else if (indexPath.row == 6) {
         [[MXCache sharedCache] mx_setObject:self.model
-                                     forKey:self.modelKey];
+                                     forKey:self.cachekey];
     }
     else if (indexPath.row == 7) {
-        TestModel *model = [[MXCache sharedCache] mx_diskCacheForKey:self.modelKey];
-        NSLog(@"cache model :%@ %@ %@", model.name, model.age, model.address);
+        TestModel *model = [[MXCache sharedCache] mx_diskCacheForKey:self.cachekey];
+        NSLog(@"disk %@", model);
+        
+        model = [[MXCache sharedCache] mx_memoryCacheForKey:self.cachekey];
+        NSLog(@"memory: %@", model);
     }
     else if (indexPath.row == 8) {
-        [[MXCache sharedCache] mx_removeCacheForKey:self.modelKey];
+        [[MXCache sharedCache] mx_removeCacheForKey:self.cachekey];
     }
 }
 
@@ -103,33 +109,6 @@ static NSString *const kCellId  =   @"cellId";
 
 @implementation TestModel
 
-- (NSArray *)names {
-    __block NSArray *arr;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        arr = @[@"name1", @"name2", @"name3", @"name4", @"name5"];
-    });
-    return arr;
-}
-
-- (NSArray *)ages {
-    __block NSArray *arr;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        arr = @[@1, @2, @3, @4, @5];
-    });
-    return arr;
-}
-
-- (NSArray *)addresss {
-    __block NSArray *arr;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        arr = @[@"address1", @"address2", @"address3", @"address4", @"address5"];
-    });
-    return arr;
-}
-
 - (instancetype)init {
     self = [super init];
     if (self) {
@@ -143,9 +122,9 @@ static NSString *const kCellId  =   @"cellId";
 }
 
 - (void)createRandomValue {
-    self.name = [self names][arc4random() % 5];
-    self.age = [self ages][arc4random() % 5];
-    self.address = [self addresss][arc4random() % 5];
+    self.name = @"jack";
+    self.age = @(20);
+    self.address = @"上海";
 }
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder {
@@ -170,6 +149,22 @@ static NSString *const kCellId  =   @"cellId";
     model.age = [self.age copy];
     model.address = [self.address copy];
     return model;
+}
+
+- (NSString *)description {
+    NSMutableDictionary *data = [NSMutableDictionary dictionary];
+    [data setValue:_name forKey:@"name"];
+    [data setValue:_age forKey:@"age"];
+    [data setValue:_address forKey:@"address"];
+    return [NSString stringWithFormat:@"<%@:%p>:%@",[self class], &self, data];
+}
+
+- (NSString *)debugDescription {
+    NSMutableDictionary *data = [NSMutableDictionary dictionary];
+    [data setValue:_name forKey:@"name"];
+    [data setValue:_age forKey:@"age"];
+    [data setValue:_address forKey:@"address"];
+    return [NSString stringWithFormat:@"<%@:%p>:%@",[self class], &self, data];
 }
 
 @end

@@ -1,0 +1,6 @@
+framework module MXCaches {
+  umbrella header "MXCaches-umbrella.h"
+
+  export *
+  module * { export * }
+}

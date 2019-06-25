@@ -7,7 +7,6 @@ target 'MXCache' do
   use_frameworks!
 
   # Pods for MXCache
-  pod 'MXCache', :path => '../'
-  #pod 'YYCache', '1.0.4'
+  pod 'MXCaches', :path => '../'
 
 end

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "MXCache"
+  s.name         = "MXCaches"
   s.version      = "1.0.0"
   s.summary      = "基于YYCache的缓存轻量封装"
 
@@ -21,9 +21,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/kuroky/MXCache.git", :tag => s.version }
 
 
-  s.source_files  = "MXCache/*.{h,m}"
-
-  # s.public_header_files = "MXCache/*.h"
+  s.source_files  = "Classes/*.{h,m}"
 
 
   s.requires_arc = true

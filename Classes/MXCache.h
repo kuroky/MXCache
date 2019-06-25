@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param path file path
  */
-- (void)mx_setCachePath:(NSString *)path;
+- (void)mx_setCachePath:(nullable NSString *)path;
 
 /**
  缓存设置 可选

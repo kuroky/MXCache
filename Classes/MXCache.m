@@ -50,7 +50,7 @@ static NSInteger const kDiskCacheExpirytime   =   2592000; // 磁盘缓存过期
     return self;
 }
 
-- (void)mx_setCachePath:(NSString *)path {
+- (void)mx_setCachePath:(nullable NSString *)path {
     self.cachePath = path;
     [self setupCache];
 }

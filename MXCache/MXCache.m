@@ -44,6 +44,27 @@ static NSInteger const kDiskCacheExpirytime   =   2592000; // 磁盘缓存过期
     return self;
 }
 
+- (void)memoryCacheCount:(NSInteger)count {
+    if (count <= 0) {
+        return;
+    }
+    [self.yyCache.memoryCache setCountLimit:count];
+}
+
+- (void)memoryCacheExpirytime:(NSInteger)timer {
+    if (timer <= 0) {
+        return;
+    }
+    [self.yyCache.memoryCache setAgeLimit:timer];
+}
+
+- (void)diskCacheExpirytime:(NSInteger)timer {
+    if (timer <= 0) {
+        return;
+    }
+    [self.yyCache.diskCache setAgeLimit:timer];
+}
+
 - (void)setup {
     NSString *cachePath = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject;
     NSString *filePath = [cachePath stringByAppendingPathComponent:kCahceName];
@@ -109,54 +130,62 @@ static NSInteger const kDiskCacheExpirytime   =   2592000; // 磁盘缓存过期
 //MARK: - 异步读取磁盘缓存
 - (void)mx_objectForKey:(NSString *)key
               withBlock:(void (^)(id<NSCoding> object))block {
-    [_yyCache.diskCache objectForKey:key
-                           withBlock:^(NSString *key, id<NSCoding> object) {
-                               if (block) {
+    if (!block || !key) {
+        return;
+    }
+    
+    [self.yyCache.diskCache objectForKey:key
+                               withBlock:^(NSString *key, id<NSCoding> object) {
                                    dispatch_async(dispatch_get_main_queue(), ^{
                                        block(object);
                                    });
-                               }
-                           }];
+                               }];
 }
 
 //MARK: - 异步数据缓存到磁盘
 - (void)mx_setObject:(id<NSCoding>)object
               ForKey:(NSString *)key
            withBlock:(void (^)(BOOL finish))block {
-    [_yyCache.diskCache setObject:object
-                           forKey:key
-                        withBlock:^{
-                            if (block) {
+    if (!object || !key || !block) {
+        return;
+    }
+    
+    [self.yyCache.diskCache setObject:object
+                               forKey:key
+                            withBlock:^{
                                 dispatch_async(dispatch_get_main_queue(), ^{
                                     block(YES);
                                 });
-                            }
-                        }];
+                            }];
 }
 
 //MARK: - 异步判断磁盘缓存是否存在
 - (void)mx_containsObjectForKey:(NSString *)key
                       withBlock:(void (^)(BOOL contains))block {
-    [_yyCache.diskCache containsObjectForKey:key
-                                   withBlock:^(NSString * _Nonnull key, BOOL contains) {
-                                       if (block) {
+    if (!key || !block) {
+        return;
+    }
+    
+    [self.yyCache.diskCache containsObjectForKey:key
+                                       withBlock:^(NSString * _Nonnull key, BOOL contains) {
                                            dispatch_async(dispatch_get_main_queue(), ^{
                                                block(contains);
                                            });
-                                       }
-                                   }];
+                                       }];
 }
 
 //MARK: - 异步删除磁盘缓存
 - (void)mx_removeObjectForKey:(NSString *)key
                     withBlock:(void (^)(BOOL finish))block {
-    [_yyCache.diskCache removeObjectForKey:key
+    if (!key || !block) {
+        return;
+    }
+    
+    [self.yyCache.diskCache removeObjectForKey:key
                                  withBlock:^(NSString *key) {
-                                     if (block) {
                                          dispatch_async(dispatch_get_main_queue(), ^{
                                              block(YES);
                                          });
-                                     }
                                  }];
 }
 

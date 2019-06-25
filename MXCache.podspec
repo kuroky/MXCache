@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MXCache"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "基于YYCache的缓存轻量封装"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "https://github.com/kuroky/MXCache.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kuroky/MXCache.git", :tag => s.version }
 
 
   s.source_files  = "MXCache/*.{h,m}"

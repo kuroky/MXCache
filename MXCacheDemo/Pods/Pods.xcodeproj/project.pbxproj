@@ -62,27 +62,27 @@
 		0B0F333B74E2E2594D2AC27E4BBEBF35 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
 		0B6D8A6C3E2A16F4DF8E3267EAC987F9 /* Pods-MXCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXCache-dummy.m"; sourceTree = "<group>"; };
 		21CFAC957963B49FF0E237416D4AB373 /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
-		27CCE9F12D428550BAED337809C34A9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		27CCE9F12D428550BAED337809C34A9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28F89A5457BA8DC3FA55DD39720BAB16 /* MXCaches-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXCaches-umbrella.h"; sourceTree = "<group>"; };
 		2A24B8D499E71D45CA728A33659A4E0C /* MXCaches-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXCaches-prefix.pch"; sourceTree = "<group>"; };
 		2C93F70184BD09D2ABFC4752DA804FF9 /* MXCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXCache.m; path = Classes/MXCache.m; sourceTree = "<group>"; };
 		2CB21E268B3B2BE395BF2F0BB01B03CC /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
 		331AB596FD85A0461CF7564BBF1FA403 /* Pods-MXCache-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXCache-frameworks.sh"; sourceTree = "<group>"; };
 		37919D32A67B9D72E01F09B417DCA684 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
-		3A01A7C2E13BFB26865657D88D829EAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3F7F78FECECCCED907A7FBE24A784B5A /* Pods_MXCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MXCache.framework; path = "Pods-MXCache.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A01A7C2E13BFB26865657D88D829EAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F7F78FECECCCED907A7FBE24A784B5A /* Pods_MXCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4751852A345F220EDD5961F0B6A7A043 /* Pods-MXCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXCache-Info.plist"; sourceTree = "<group>"; };
-		48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		657969E3015A12DD0C4637ABCB244907 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
 		66C75819AD2CFDA8018975BCECE10938 /* Pods-MXCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXCache.release.xcconfig"; sourceTree = "<group>"; };
 		7243C2510555DDE7631A0D2700B894B8 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
-		8B32C40DF8D7A5D5CE3E0A5622EC4778 /* MXCaches.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MXCaches.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B32C40DF8D7A5D5CE3E0A5622EC4778 /* MXCaches.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MXCaches.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		979C5CB70967DDE9CD9381C914EC7F4E /* Pods-MXCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXCache.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E4776D16AAFCFABC1A65715972B45E5 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
 		A21F2BDCC45470042888CE9CD93496FB /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
 		AFBF817E8768D2CC5A203A5E948B9C30 /* MXCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXCache.h; path = Classes/MXCache.h; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		E0500F9A95E6938A9CFA231752C62DDF /* MXCaches-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXCaches-dummy.m"; sourceTree = "<group>"; };
 		E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E620ABC95CD6C897AF77279F8B2D534F /* Pods-MXCache-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXCache-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE088A29E9036ABC5831753BC5BAB3D6 /* MXCaches.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXCaches.framework; path = MXCaches.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE088A29E9036ABC5831753BC5BAB3D6 /* MXCaches.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXCaches.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25D0B198A1EFE7CB23B2658711F47DC /* MXCaches.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXCaches.modulemap; sourceTree = "<group>"; };
 		F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
 		F82E3523FF26792BE2BA63FB2F258ED6 /* Pods-MXCache-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXCache-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -156,7 +156,6 @@
 				082B683C1E3BDE2ECB83F7ED4C638B44 /* YYMemoryCache.m */,
 				802717014FD8145089A98D39C2DC2511 /* Support Files */,
 			);
-			name = YYCache;
 			path = YYCache;
 			sourceTree = "<group>";
 		};
@@ -383,7 +382,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1140;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -391,6 +390,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 50E99183A489B800B93E803F05572538 /* Products */;
@@ -486,7 +486,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -566,8 +565,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -577,7 +575,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -609,7 +606,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7084BADE5E5C0DA633759D42A112939 /* MXCaches.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -643,7 +639,6 @@
 			baseConfigurationReference = 0A3C89D44C22B1C9ACA3BE3AF081E3B1 /* Pods-MXCache.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -678,7 +673,6 @@
 			baseConfigurationReference = 66C75819AD2CFDA8018975BCECE10938 /* Pods-MXCache.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -713,7 +707,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7084BADE5E5C0DA633759D42A112939 /* MXCaches.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

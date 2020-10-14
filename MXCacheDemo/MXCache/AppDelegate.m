@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    //[[MXCache sharedCache] mx_mCacheCount:20 mExpirytime:300 dExpirytime:12000];
+    [[MXCache sharedCache] mx_mCacheCount:100 mExpirytime:3600 dExpirytime:86400 * 3];
     [[MXCache sharedCache] mx_setCachePath:@""];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];

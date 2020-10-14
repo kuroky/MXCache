@@ -1,4 +1,7 @@
 ## 基于[YYCache](https://github.com/ibireme/YYCache)缓存封装
+
+### 功能
+将偏底层的`YYCache`封装成上层调用API
 ### 安装
 #### 1.CocoaPod安装
 
@@ -10,10 +13,10 @@ pod 'MXCaches', '1.0.0'
 - 把`MXCache`拖入项目
 
 ### 使用说明
-![提示](https://github.com/kuroky/MXCache/blob/master/2018-10-09.png)
+![提示](Resource/2018-10-09.png)
 
 ```Swift
-[[MXCache sharedCache] mx_mCacheCount:20 mExpirytime:300 dExpirytime:12000];
+[[MXCache sharedCache] mx_mCacheCount:100 mExpirytime:3600 dExpirytime:86400 * 3];
 [[MXCache sharedCache] mx_setCachePath:@""]; // 缓存路径
 ```
 

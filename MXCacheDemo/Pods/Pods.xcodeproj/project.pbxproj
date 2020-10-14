@@ -7,47 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A989317805D5E91D3870F856C593D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
-		08F2DEE0726FAA99CDC56601155E5306 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */; };
-		0953D5F25575AF50B5E7C6C8FB27F27A /* Pods-MXCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D170051C316E953632BD55AF19E4E4F7 /* Pods-MXCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B5B5973C073FAD27DB53056BF9E428A /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7EAEF1DC326C25472BF9D731C9314C /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EB6160FF5A3472646E87970F0023664 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B683C1E3BDE2ECB83F7ED4C638B44 /* YYMemoryCache.m */; };
-		3009638F3FAD9ACB267F6DE18C97825E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */; };
-		30C53C615F0CC2A851EA92B964C6F878 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E4776D16AAFCFABC1A65715972B45E5 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DABC877AF4333625FF2759E982BAC89 /* MXCaches-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F89A5457BA8DC3FA55DD39720BAB16 /* MXCaches-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E6B24B2521A664559077DE7FF808C8D /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0F333B74E2E2594D2AC27E4BBEBF35 /* YYKVStorage.m */; };
-		5CF4A5F0F98F13871164EEDFF6F3412F /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C65A6B00519E426DC7A0E0A7D5BD01DA /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D8F0184D511168FBB31D0EBCFB4605C /* MXCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C93F70184BD09D2ABFC4752DA804FF9 /* MXCache.m */; };
-		7097324D7676D53FBF574DC05162F1C0 /* Pods-MXCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D8A6C3E2A16F4DF8E3267EAC987F9 /* Pods-MXCache-dummy.m */; };
-		7A2E62BB8144C61FFD836142DE84293A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */; };
-		80A320E232C5FFA6295088B4AC867293 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
-		8C49EFC551DA9E6CF96E832749EBA54B /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CD76D23F7A67EE074CB9CE50DB55F1 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		996D163FCD34BF972238C390C8330AF0 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB21E268B3B2BE395BF2F0BB01B03CC /* YYCache-dummy.m */; };
-		A7D2C774B1A5B3F6D3AFC19CC37B86C8 /* MXCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBF817E8768D2CC5A203A5E948B9C30 /* MXCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF5D31F4E4FF96FE5135ED847F287665 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 657969E3015A12DD0C4637ABCB244907 /* YYCache.m */; };
-		CAF804679B6F7B301377E93AD260B928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
-		CB24E11EE0B699388DE3F934E6789105 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A21F2BDCC45470042888CE9CD93496FB /* YYDiskCache.m */; };
-		CC3BE925F75D7E4E1CDAA660AB5F569D /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CFAC957963B49FF0E237416D4AB373 /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E4BC6E5B7B6E88CC6351E77357C3A640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */; };
-		F47DA39C23A42059EE9368065E6BFF98 /* MXCaches-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0500F9A95E6938A9CFA231752C62DDF /* MXCaches-dummy.m */; };
+		0439F743C8EE0A3510CD66EB78DD37E9 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD5976461524F61C220DF03556285EC /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1083289D3560269BE5023C9462BA98F5 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E52D21718D1140B44357C306F59A6F6 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1217712B828DE096F6AC7F30B926F97B /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E415BD870B885BA9049FF16FB41174 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2113F1F3714FE7C559368E8CC95E80E6 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FE582E6E48CF7B9372AE69A00F249562 /* YYCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2BF120C9E658D5A80C13347A012C6FB0 /* MXCaches-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF69E9875E53E46602986B3552D8FE59 /* MXCaches-dummy.m */; };
+		2DE3700E07D29D8A00789D0F5E4186B9 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55ADD6F65EB0AD5C08C15AEC2EE28345 /* YYCache-dummy.m */; };
+		39CE6938B0BB844B0FA9070C9D22B9DF /* MXCaches-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6343E285F19F9DB95DE195C3DB2DA913 /* MXCaches-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D4283C403C62D4FE28E45B48F75C0D /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A445AF294BCF1A532478C3EC915D48 /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		591ACF5292FFF57A09EEF5D4407C567F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		65D03DB95D23A109CD77C2FE5F7EBD5E /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B16FB5F181651F6EB0B32DAC132AE0 /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72656758E5117A9E93A1D69363523AC6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */; };
+		8E6016A6ABA4DC6AD8CC0523A29745D2 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1689464565CA9031BADC8679B2BEE58 /* YYKVStorage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9B0185E09A4833FBBD0094E18D78A6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		9C84C2828DBBED9BC3CCF875DF913FCA /* Pods-MXCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6D8A6C3E2A16F4DF8E3267EAC987F9 /* Pods-MXCache-dummy.m */; };
+		9E40A7ECB965C9C64E19F7F01E22B9F4 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 43502036786D35D163AD385CD2103321 /* YYMemoryCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A374C52BE65A5E060BC13503B4089FC0 /* MXCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6A3DCD36F8531CDF151A3ED7EC59A0 /* MXCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6637FE978EBBCD123071F09F4CE7833 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A44FB325F5249D869AB6ADA2C7B6B9 /* YYDiskCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C9F772E80AD4D2CA7433789FA2BD1C65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */; };
+		D5316B90E540CC18833E12AB7B07BDFA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */; };
+		DEF9100853DF43A02004E5B50281C4C8 /* Pods-MXCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D170051C316E953632BD55AF19E4E4F7 /* Pods-MXCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7E595B248EEA252BEB3A67F07B7BD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */; };
+		F48CD7B4C870D328B9C7CF98EC8BAF16 /* MXCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C9287496836805F42C727FAF0156F504 /* MXCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FE1BA3677C164D689E8920FB68189236 /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4DF14F38F887526165D0401B26404B67 /* PBXContainerItemProxy */ = {
+		181E61AF3ADF2C571BE7F5834996EDF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CFDAE6EB02F58B9A37CADCF439AE6082;
 			remoteInfo = YYCache;
 		};
-		6771F76ADF5ACABEB61A2BABA3A1BBAA /* PBXContainerItemProxy */ = {
+		385657A2575CEE759A5CF524210AEC22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 63D92018CC0432986982D8ACD8AD45B8;
 			remoteInfo = MXCaches;
 		};
-		ED0FFCD575C19223964C93E49A8BB430 /* PBXContainerItemProxy */ = {
+		49683CE69CA8B628E1DF6D9A137657BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -57,77 +57,79 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082B683C1E3BDE2ECB83F7ED4C638B44 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
+		021940EEFFF629DCD6C911AA03EF6DEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		02A6201173642C7DA80648AE1E7DD683 /* MXCaches.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MXCaches.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		06B585FCFE0D9162D40335C4AF7F43F0 /* MXCaches.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXCaches.debug.xcconfig; sourceTree = "<group>"; };
 		0A3C89D44C22B1C9ACA3BE3AF081E3B1 /* Pods-MXCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXCache.debug.xcconfig"; sourceTree = "<group>"; };
-		0B0F333B74E2E2594D2AC27E4BBEBF35 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
 		0B6D8A6C3E2A16F4DF8E3267EAC987F9 /* Pods-MXCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXCache-dummy.m"; sourceTree = "<group>"; };
-		21CFAC957963B49FF0E237416D4AB373 /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
-		27CCE9F12D428550BAED337809C34A9C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		28F89A5457BA8DC3FA55DD39720BAB16 /* MXCaches-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXCaches-umbrella.h"; sourceTree = "<group>"; };
-		2A24B8D499E71D45CA728A33659A4E0C /* MXCaches-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXCaches-prefix.pch"; sourceTree = "<group>"; };
-		2C93F70184BD09D2ABFC4752DA804FF9 /* MXCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXCache.m; path = Classes/MXCache.m; sourceTree = "<group>"; };
-		2CB21E268B3B2BE395BF2F0BB01B03CC /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		1BD5976461524F61C220DF03556285EC /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
 		331AB596FD85A0461CF7564BBF1FA403 /* Pods-MXCache-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXCache-frameworks.sh"; sourceTree = "<group>"; };
-		37919D32A67B9D72E01F09B417DCA684 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
-		3A01A7C2E13BFB26865657D88D829EAE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3CBA45CA733310674A3363E40CA0E755 /* MXCaches-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXCaches-prefix.pch"; sourceTree = "<group>"; };
 		3F7F78FECECCCED907A7FBE24A784B5A /* Pods_MXCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43502036786D35D163AD385CD2103321 /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
 		4751852A345F220EDD5961F0B6A7A043 /* Pods-MXCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXCache-Info.plist"; sourceTree = "<group>"; };
 		48ACF38225AF5129416A1F090F6D3286 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5107C0C35F6061777C298F1CD85D8193 /* MXCaches.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXCaches.release.xcconfig; sourceTree = "<group>"; };
+		55ADD6F65EB0AD5C08C15AEC2EE28345 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
 		5CCE2809A69A7076DD317F6EF94FD8FA /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6020F6AC5FF7E4AAB556A98CC6A62E0D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		60809D446758EEEA2306622C20E7EE2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		657969E3015A12DD0C4637ABCB244907 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
+		62A44FB325F5249D869AB6ADA2C7B6B9 /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
+		6343E285F19F9DB95DE195C3DB2DA913 /* MXCaches-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXCaches-umbrella.h"; sourceTree = "<group>"; };
+		63A445AF294BCF1A532478C3EC915D48 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
+		63E415BD870B885BA9049FF16FB41174 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
 		66C75819AD2CFDA8018975BCECE10938 /* Pods-MXCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXCache.release.xcconfig"; sourceTree = "<group>"; };
-		7243C2510555DDE7631A0D2700B894B8 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
-		8B32C40DF8D7A5D5CE3E0A5622EC4778 /* MXCaches.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MXCaches.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E52D21718D1140B44357C306F59A6F6 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
+		6EE500D1CD2A0AF2531DF55B8A478AE4 /* YYCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.debug.xcconfig; sourceTree = "<group>"; };
+		814FA6F8378517715F8D8F9ABDA2EF42 /* MXCaches-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MXCaches-Info.plist"; sourceTree = "<group>"; };
 		939CDEFEAD14B44CA3A82FDA904F3121 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		941F08C5D1EC492617929B00527D755B /* MXCaches.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXCaches.modulemap; sourceTree = "<group>"; };
 		979C5CB70967DDE9CD9381C914EC7F4E /* Pods-MXCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXCache.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E4776D16AAFCFABC1A65715972B45E5 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
-		A21F2BDCC45470042888CE9CD93496FB /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
-		AFBF817E8768D2CC5A203A5E948B9C30 /* MXCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXCache.h; path = Classes/MXCache.h; sourceTree = "<group>"; };
-		C65A6B00519E426DC7A0E0A7D5BD01DA /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
-		C7084BADE5E5C0DA633759D42A112939 /* MXCaches.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXCaches.xcconfig; sourceTree = "<group>"; };
-		CC1F88BAF610D74098D26EC2DDB83EFA /* YYCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCache-Info.plist"; sourceTree = "<group>"; };
+		B31A4CDB27519CF27DB5F757D1371C4E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF69E9875E53E46602986B3552D8FE59 /* MXCaches-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXCaches-dummy.m"; sourceTree = "<group>"; };
+		C9287496836805F42C727FAF0156F504 /* MXCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXCache.m; path = Classes/MXCache.m; sourceTree = "<group>"; };
+		CF6A3DCD36F8531CDF151A3ED7EC59A0 /* MXCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXCache.h; path = Classes/MXCache.h; sourceTree = "<group>"; };
 		D170051C316E953632BD55AF19E4E4F7 /* Pods-MXCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXCache-umbrella.h"; sourceTree = "<group>"; };
-		D2CD76D23F7A67EE074CB9CE50DB55F1 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
-		E0500F9A95E6938A9CFA231752C62DDF /* MXCaches-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXCaches-dummy.m"; sourceTree = "<group>"; };
+		D3FE99D97EDC8F447A2CC0A93F2094E5 /* YYCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.release.xcconfig; sourceTree = "<group>"; };
+		DB13F8EA7E653C121EAA42970FD4B7E6 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
+		DB475550AC173995C9CC2AB94E9DF537 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
+		E1689464565CA9031BADC8679B2BEE58 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
 		E5ED4D2E5D74F7376E62CC8B9597C06D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		E620ABC95CD6C897AF77279F8B2D534F /* Pods-MXCache-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXCache-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE088A29E9036ABC5831753BC5BAB3D6 /* MXCaches.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MXCaches.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F25D0B198A1EFE7CB23B2658711F47DC /* MXCaches.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXCaches.modulemap; sourceTree = "<group>"; };
-		F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
+		F3B16FB5F181651F6EB0B32DAC132AE0 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
+		F56D05F9F6E0CA54B72350AEFDA4CFCF /* YYCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YYCache-Info.plist"; sourceTree = "<group>"; };
 		F82E3523FF26792BE2BA63FB2F258ED6 /* Pods-MXCache-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXCache-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC7EAEF1DC326C25472BF9D731C9314C /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
-		FD56E619BC3E4E5D31B415F2937CC987 /* MXCaches-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MXCaches-Info.plist"; sourceTree = "<group>"; };
+		FE582E6E48CF7B9372AE69A00F249562 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D4C595C207776164ADCB0FB36E87E58 /* Frameworks */ = {
+		3074F5620F47FC6E93C5F346928A0E83 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3009638F3FAD9ACB267F6DE18C97825E /* CoreFoundation.framework in Frameworks */,
-				80A320E232C5FFA6295088B4AC867293 /* Foundation.framework in Frameworks */,
-				7A2E62BB8144C61FFD836142DE84293A /* QuartzCore.framework in Frameworks */,
-				E4BC6E5B7B6E88CC6351E77357C3A640 /* UIKit.framework in Frameworks */,
+				D5316B90E540CC18833E12AB7B07BDFA /* CoreFoundation.framework in Frameworks */,
+				9B0185E09A4833FBBD0094E18D78A6AF /* Foundation.framework in Frameworks */,
+				72656758E5117A9E93A1D69363523AC6 /* QuartzCore.framework in Frameworks */,
+				EC7E595B248EEA252BEB3A67F07B7BD7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA9216257ABA66CE946F60D21258E4E2 /* Frameworks */ = {
+		DB888CF7C622F69DD4490EBE0CED3A65 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF804679B6F7B301377E93AD260B928 /* Foundation.framework in Frameworks */,
+				591ACF5292FFF57A09EEF5D4407C567F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F10ADCC83BDD12E558970B741C128B6A /* Frameworks */ = {
+		FD1B00003607ED219F73CF74FC9ECF92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A989317805D5E91D3870F856C593D4 /* Foundation.framework in Frameworks */,
-				08F2DEE0726FAA99CDC56601155E5306 /* YYCache.framework in Frameworks */,
+				C9F772E80AD4D2CA7433789FA2BD1C65 /* Foundation.framework in Frameworks */,
+				FE1BA3677C164D689E8920FB68189236 /* YYCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,28 +145,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		18DE66E02267A75B0406F97F6FDEAA3C /* YYCache */ = {
+		1AAC33C17E3332B67F6D72CDED36C5EE /* MXCaches */ = {
 			isa = PBXGroup;
 			children = (
-				C65A6B00519E426DC7A0E0A7D5BD01DA /* YYCache.h */,
-				657969E3015A12DD0C4637ABCB244907 /* YYCache.m */,
-				FC7EAEF1DC326C25472BF9D731C9314C /* YYDiskCache.h */,
-				A21F2BDCC45470042888CE9CD93496FB /* YYDiskCache.m */,
-				D2CD76D23F7A67EE074CB9CE50DB55F1 /* YYKVStorage.h */,
-				0B0F333B74E2E2594D2AC27E4BBEBF35 /* YYKVStorage.m */,
-				9E4776D16AAFCFABC1A65715972B45E5 /* YYMemoryCache.h */,
-				082B683C1E3BDE2ECB83F7ED4C638B44 /* YYMemoryCache.m */,
-				802717014FD8145089A98D39C2DC2511 /* Support Files */,
+				CF6A3DCD36F8531CDF151A3ED7EC59A0 /* MXCache.h */,
+				C9287496836805F42C727FAF0156F504 /* MXCache.m */,
+				1C18B21EA4879659C716BAB9A814F8C8 /* Pod */,
+				4C527556D74AE58F4A38405A0A63E5CE /* Support Files */,
 			);
-			path = YYCache;
+			name = MXCaches;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		2E5950134A67D34E83C6C4C6630CC958 /* Pod */ = {
+		1C18B21EA4879659C716BAB9A814F8C8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				27CCE9F12D428550BAED337809C34A9C /* LICENSE */,
-				8B32C40DF8D7A5D5CE3E0A5622EC4778 /* MXCaches.podspec */,
-				3A01A7C2E13BFB26865657D88D829EAE /* README.md */,
+				021940EEFFF629DCD6C911AA03EF6DEE /* LICENSE */,
+				02A6201173642C7DA80648AE1E7DD683 /* MXCaches.podspec */,
+				B31A4CDB27519CF27DB5F757D1371C4E /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -180,6 +178,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		4C527556D74AE58F4A38405A0A63E5CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				941F08C5D1EC492617929B00527D755B /* MXCaches.modulemap */,
+				BF69E9875E53E46602986B3552D8FE59 /* MXCaches-dummy.m */,
+				814FA6F8378517715F8D8F9ABDA2EF42 /* MXCaches-Info.plist */,
+				3CBA45CA733310674A3363E40CA0E755 /* MXCaches-prefix.pch */,
+				6343E285F19F9DB95DE195C3DB2DA913 /* MXCaches-umbrella.h */,
+				06B585FCFE0D9162D40335C4AF7F43F0 /* MXCaches.debug.xcconfig */,
+				5107C0C35F6061777C298F1CD85D8193 /* MXCaches.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "MXCacheDemo/Pods/Target Support Files/MXCaches";
+			sourceTree = "<group>";
+		};
 		50E99183A489B800B93E803F05572538 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,38 +203,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		802717014FD8145089A98D39C2DC2511 /* Support Files */ = {
+		656DBDC3D9EAB89D16970CD296B030F1 /* YYCache */ = {
 			isa = PBXGroup;
 			children = (
-				7243C2510555DDE7631A0D2700B894B8 /* YYCache.modulemap */,
-				F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */,
-				2CB21E268B3B2BE395BF2F0BB01B03CC /* YYCache-dummy.m */,
-				CC1F88BAF610D74098D26EC2DDB83EFA /* YYCache-Info.plist */,
-				37919D32A67B9D72E01F09B417DCA684 /* YYCache-prefix.pch */,
-				21CFAC957963B49FF0E237416D4AB373 /* YYCache-umbrella.h */,
+				63A445AF294BCF1A532478C3EC915D48 /* YYCache.h */,
+				FE582E6E48CF7B9372AE69A00F249562 /* YYCache.m */,
+				63E415BD870B885BA9049FF16FB41174 /* YYDiskCache.h */,
+				62A44FB325F5249D869AB6ADA2C7B6B9 /* YYDiskCache.m */,
+				6E52D21718D1140B44357C306F59A6F6 /* YYKVStorage.h */,
+				E1689464565CA9031BADC8679B2BEE58 /* YYKVStorage.m */,
+				F3B16FB5F181651F6EB0B32DAC132AE0 /* YYMemoryCache.h */,
+				43502036786D35D163AD385CD2103321 /* YYMemoryCache.m */,
+				BA39D5B99553EE779B1F4D8EA5FD0BEB /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/YYCache";
+			path = YYCache;
 			sourceTree = "<group>";
 		};
 		8E2A429A38905E44EBB9F4D12D4DF591 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				97653A8FEA48872593F3600CF3EFDCFA /* MXCaches */,
+				1AAC33C17E3332B67F6D72CDED36C5EE /* MXCaches */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		97653A8FEA48872593F3600CF3EFDCFA /* MXCaches */ = {
-			isa = PBXGroup;
-			children = (
-				AFBF817E8768D2CC5A203A5E948B9C30 /* MXCache.h */,
-				2C93F70184BD09D2ABFC4752DA804FF9 /* MXCache.m */,
-				2E5950134A67D34E83C6C4C6630CC958 /* Pod */,
-				F60310591DA3D364B23D08BF6E013B98 /* Support Files */,
-			);
-			name = MXCaches;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B643724807FD76931DE15347FE4F98B7 /* Targets Support Files */ = {
@@ -232,10 +235,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		BA39D5B99553EE779B1F4D8EA5FD0BEB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB475550AC173995C9CC2AB94E9DF537 /* YYCache.modulemap */,
+				55ADD6F65EB0AD5C08C15AEC2EE28345 /* YYCache-dummy.m */,
+				F56D05F9F6E0CA54B72350AEFDA4CFCF /* YYCache-Info.plist */,
+				DB13F8EA7E653C121EAA42970FD4B7E6 /* YYCache-prefix.pch */,
+				1BD5976461524F61C220DF03556285EC /* YYCache-umbrella.h */,
+				6EE500D1CD2A0AF2531DF55B8A478AE4 /* YYCache.debug.xcconfig */,
+				D3FE99D97EDC8F447A2CC0A93F2094E5 /* YYCache.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYCache";
+			sourceTree = "<group>";
+		};
 		C62D92DA920680A76B802D5CF54F9EDB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				18DE66E02267A75B0406F97F6FDEAA3C /* YYCache */,
+				656DBDC3D9EAB89D16970CD296B030F1 /* YYCache */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -269,49 +287,35 @@
 			path = "Target Support Files/Pods-MXCache";
 			sourceTree = "<group>";
 		};
-		F60310591DA3D364B23D08BF6E013B98 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F25D0B198A1EFE7CB23B2658711F47DC /* MXCaches.modulemap */,
-				C7084BADE5E5C0DA633759D42A112939 /* MXCaches.xcconfig */,
-				E0500F9A95E6938A9CFA231752C62DDF /* MXCaches-dummy.m */,
-				FD56E619BC3E4E5D31B415F2937CC987 /* MXCaches-Info.plist */,
-				2A24B8D499E71D45CA728A33659A4E0C /* MXCaches-prefix.pch */,
-				28F89A5457BA8DC3FA55DD39720BAB16 /* MXCaches-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "MXCacheDemo/Pods/Target Support Files/MXCaches";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		220C70F8F14A99F61ED912DE1ADB5386 /* Headers */ = {
+		1FED6460286506345D226637581E9C5A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3BE925F75D7E4E1CDAA660AB5F569D /* YYCache-umbrella.h in Headers */,
-				5CF4A5F0F98F13871164EEDFF6F3412F /* YYCache.h in Headers */,
-				1B5B5973C073FAD27DB53056BF9E428A /* YYDiskCache.h in Headers */,
-				8C49EFC551DA9E6CF96E832749EBA54B /* YYKVStorage.h in Headers */,
-				30C53C615F0CC2A851EA92B964C6F878 /* YYMemoryCache.h in Headers */,
+				DEF9100853DF43A02004E5B50281C4C8 /* Pods-MXCache-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A49FE475FEEA9868B77D20F330BB6C3E /* Headers */ = {
+		C64BDAD9B429516323557189950BCAF9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7D2C774B1A5B3F6D3AFC19CC37B86C8 /* MXCache.h in Headers */,
-				3DABC877AF4333625FF2759E982BAC89 /* MXCaches-umbrella.h in Headers */,
+				0439F743C8EE0A3510CD66EB78DD37E9 /* YYCache-umbrella.h in Headers */,
+				46D4283C403C62D4FE28E45B48F75C0D /* YYCache.h in Headers */,
+				1217712B828DE096F6AC7F30B926F97B /* YYDiskCache.h in Headers */,
+				1083289D3560269BE5023C9462BA98F5 /* YYKVStorage.h in Headers */,
+				65D03DB95D23A109CD77C2FE5F7EBD5E /* YYMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7E9B125D9A6AD7E4F8A1001E44D9A6D /* Headers */ = {
+		C9FF71D64A9C2379BAFCC17163468CB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0953D5F25575AF50B5E7C6C8FB27F27A /* Pods-MXCache-umbrella.h in Headers */,
+				A374C52BE65A5E060BC13503B4089FC0 /* MXCache.h in Headers */,
+				39CE6938B0BB844B0FA9070C9D22B9DF /* MXCaches-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,17 +324,17 @@
 /* Begin PBXNativeTarget section */
 		63D92018CC0432986982D8ACD8AD45B8 /* MXCaches */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44D93FA0AD247998CBC962E113960932 /* Build configuration list for PBXNativeTarget "MXCaches" */;
+			buildConfigurationList = 67839C17DF0477D3347635E16D6AF3EB /* Build configuration list for PBXNativeTarget "MXCaches" */;
 			buildPhases = (
-				A49FE475FEEA9868B77D20F330BB6C3E /* Headers */,
-				7B65CC565D53F738FD6AC67913F04539 /* Sources */,
-				F10ADCC83BDD12E558970B741C128B6A /* Frameworks */,
-				CFEDD25DB7988010B7AB2ED9208ED5A5 /* Resources */,
+				C9FF71D64A9C2379BAFCC17163468CB2 /* Headers */,
+				DB191B326DCBE0096007A76345AA8D0F /* Sources */,
+				FD1B00003607ED219F73CF74FC9ECF92 /* Frameworks */,
+				E9E3044B491FA3F0617BEBDC4358ACC4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18817FB7513722BAD3D5CD1BFFB1C749 /* PBXTargetDependency */,
+				9F782FB35C207791FB149B99F062816F /* PBXTargetDependency */,
 			);
 			name = MXCaches;
 			productName = MXCaches;
@@ -339,18 +343,18 @@
 		};
 		A1CA04BC911D3CB0027B506AFE68DD6B /* Pods-MXCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79FD75BED3574692F9D5B6F1640B8482 /* Build configuration list for PBXNativeTarget "Pods-MXCache" */;
+			buildConfigurationList = 160D37673C3DFA5E078E31EF1F723D21 /* Build configuration list for PBXNativeTarget "Pods-MXCache" */;
 			buildPhases = (
-				F7E9B125D9A6AD7E4F8A1001E44D9A6D /* Headers */,
-				5540996CC32ED1A2809F2B964EDC00AA /* Sources */,
-				BA9216257ABA66CE946F60D21258E4E2 /* Frameworks */,
-				3158EBAE1824903DB36A33DA75DC824E /* Resources */,
+				1FED6460286506345D226637581E9C5A /* Headers */,
+				8EA7790170D4FB088D9B6C26478258DD /* Sources */,
+				DB888CF7C622F69DD4490EBE0CED3A65 /* Frameworks */,
+				F4854A47FCA2EDC9EB0D4D897E957B85 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F32E3067E54D8AA33E839DA0939D1A65 /* PBXTargetDependency */,
-				DEBFD7FDE465326B481A4440E121CFA1 /* PBXTargetDependency */,
+				4C16B4E3E597892CB967983133968563 /* PBXTargetDependency */,
+				8F8FA162C055BE710B4284EB53CD0177 /* PBXTargetDependency */,
 			);
 			name = "Pods-MXCache";
 			productName = "Pods-MXCache";
@@ -359,12 +363,12 @@
 		};
 		CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AB4009755A5B172351B31924255A11C /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildConfigurationList = F20C87A0023622EB41E49C422519E36B /* Build configuration list for PBXNativeTarget "YYCache" */;
 			buildPhases = (
-				220C70F8F14A99F61ED912DE1ADB5386 /* Headers */,
-				94E61B44CD4874C9DEC99F6159AF64F8 /* Sources */,
-				1D4C595C207776164ADCB0FB36E87E58 /* Frameworks */,
-				9F783BCDB7D065453DD3CE8B87C8C3E9 /* Resources */,
+				C64BDAD9B429516323557189950BCAF9 /* Headers */,
+				BBF71AAD0AE2BDF81715EFD3F362B13F /* Sources */,
+				3074F5620F47FC6E93C5F346928A0E83 /* Frameworks */,
+				C034645803E64BEC2D1A9AA2D98718BA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -382,7 +386,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -405,21 +409,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3158EBAE1824903DB36A33DA75DC824E /* Resources */ = {
+		C034645803E64BEC2D1A9AA2D98718BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F783BCDB7D065453DD3CE8B87C8C3E9 /* Resources */ = {
+		E9E3044B491FA3F0617BEBDC4358ACC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFEDD25DB7988010B7AB2ED9208ED5A5 /* Resources */ = {
+		F4854A47FCA2EDC9EB0D4D897E957B85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,62 +433,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5540996CC32ED1A2809F2B964EDC00AA /* Sources */ = {
+		8EA7790170D4FB088D9B6C26478258DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7097324D7676D53FBF574DC05162F1C0 /* Pods-MXCache-dummy.m in Sources */,
+				9C84C2828DBBED9BC3CCF875DF913FCA /* Pods-MXCache-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B65CC565D53F738FD6AC67913F04539 /* Sources */ = {
+		BBF71AAD0AE2BDF81715EFD3F362B13F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D8F0184D511168FBB31D0EBCFB4605C /* MXCache.m in Sources */,
-				F47DA39C23A42059EE9368065E6BFF98 /* MXCaches-dummy.m in Sources */,
+				2DE3700E07D29D8A00789D0F5E4186B9 /* YYCache-dummy.m in Sources */,
+				2113F1F3714FE7C559368E8CC95E80E6 /* YYCache.m in Sources */,
+				B6637FE978EBBCD123071F09F4CE7833 /* YYDiskCache.m in Sources */,
+				8E6016A6ABA4DC6AD8CC0523A29745D2 /* YYKVStorage.m in Sources */,
+				9E40A7ECB965C9C64E19F7F01E22B9F4 /* YYMemoryCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94E61B44CD4874C9DEC99F6159AF64F8 /* Sources */ = {
+		DB191B326DCBE0096007A76345AA8D0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996D163FCD34BF972238C390C8330AF0 /* YYCache-dummy.m in Sources */,
-				AF5D31F4E4FF96FE5135ED847F287665 /* YYCache.m in Sources */,
-				CB24E11EE0B699388DE3F934E6789105 /* YYDiskCache.m in Sources */,
-				3E6B24B2521A664559077DE7FF808C8D /* YYKVStorage.m in Sources */,
-				2EB6160FF5A3472646E87970F0023664 /* YYMemoryCache.m in Sources */,
+				F48CD7B4C870D328B9C7CF98EC8BAF16 /* MXCache.m in Sources */,
+				2BF120C9E658D5A80C13347A012C6FB0 /* MXCaches-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		18817FB7513722BAD3D5CD1BFFB1C749 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
-			targetProxy = 4DF14F38F887526165D0401B26404B67 /* PBXContainerItemProxy */;
-		};
-		DEBFD7FDE465326B481A4440E121CFA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YYCache;
-			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
-			targetProxy = ED0FFCD575C19223964C93E49A8BB430 /* PBXContainerItemProxy */;
-		};
-		F32E3067E54D8AA33E839DA0939D1A65 /* PBXTargetDependency */ = {
+		4C16B4E3E597892CB967983133968563 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MXCaches;
 			target = 63D92018CC0432986982D8ACD8AD45B8 /* MXCaches */;
-			targetProxy = 6771F76ADF5ACABEB61A2BABA3A1BBAA /* PBXContainerItemProxy */;
+			targetProxy = 385657A2575CEE759A5CF524210AEC22 /* PBXContainerItemProxy */;
+		};
+		8F8FA162C055BE710B4284EB53CD0177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = 181E61AF3ADF2C571BE7F5834996EDF7 /* PBXContainerItemProxy */;
+		};
+		9F782FB35C207791FB149B99F062816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = CFDAE6EB02F58B9A37CADCF439AE6082 /* YYCache */;
+			targetProxy = 49683CE69CA8B628E1DF6D9A137657BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		204753D3A449D98B680C6B8C110F8504 /* Debug */ = {
+		0D4CF7FDC6D9BEEC0620BA2E51317497 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */;
+			baseConfigurationReference = 6EE500D1CD2A0AF2531DF55B8A478AE4 /* YYCache.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -498,7 +502,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
 				PRODUCT_MODULE_NAME = YYCache;
@@ -538,6 +542,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -560,7 +565,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -571,40 +576,9 @@
 			};
 			name = Release;
 		};
-		30D4DD44837D963A898D4D2A146E2B67 /* Release */ = {
+		3208BE7555ADB6A344B315364D39D99E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6EF21BCB68AA10F01C13FCC038FDF00 /* YYCache.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
-				PRODUCT_MODULE_NAME = YYCache;
-				PRODUCT_NAME = YYCache;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		96BFE468AA372D8E41067DAC77B99A29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7084BADE5E5C0DA633759D42A112939 /* MXCaches.xcconfig */;
+			baseConfigurationReference = 06B585FCFE0D9162D40335C4AF7F43F0 /* MXCaches.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -619,11 +593,41 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MXCaches/MXCaches-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MXCaches/MXCaches-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MXCaches/MXCaches.modulemap";
 				PRODUCT_MODULE_NAME = MXCaches;
 				PRODUCT_NAME = MXCaches;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D69524F9A870A361ACEB50E45AA66897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FE99D97EDC8F447A2CC0A93F2094E5 /* YYCache.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/YYCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -634,7 +638,7 @@
 			};
 			name = Release;
 		};
-		9F785418F5B45A3A607958DF8CD253E5 /* Debug */ = {
+		DC1F37904D5A1B69CE240115757BD37C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A3C89D44C22B1C9ACA3BE3AF081E3B1 /* Pods-MXCache.debug.xcconfig */;
 			buildSettings = {
@@ -651,7 +655,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MXCache/Pods-MXCache-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MXCache/Pods-MXCache.modulemap";
@@ -662,72 +666,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BA24229097DD0B218009BD6651C2D367 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66C75819AD2CFDA8018975BCECE10938 /* Pods-MXCache.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MXCache/Pods-MXCache-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MXCache/Pods-MXCache.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BA6245E272ECDEC29861D040730D77B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7084BADE5E5C0DA633759D42A112939 /* MXCaches.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MXCaches/MXCaches-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MXCaches/MXCaches-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MXCaches/MXCaches.modulemap";
-				PRODUCT_MODULE_NAME = MXCaches;
-				PRODUCT_NAME = MXCaches;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -760,6 +698,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -785,7 +724,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -798,14 +737,81 @@
 			};
 			name = Debug;
 		};
+		DF172C40095AB047BADD72827ECCE6F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C75819AD2CFDA8018975BCECE10938 /* Pods-MXCache.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXCache/Pods-MXCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXCache/Pods-MXCache.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECA6927FDDE063B45D7D877ABCC32165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5107C0C35F6061777C298F1CD85D8193 /* MXCaches.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MXCaches/MXCaches-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXCaches/MXCaches-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MXCaches/MXCaches.modulemap";
+				PRODUCT_MODULE_NAME = MXCaches;
+				PRODUCT_NAME = MXCaches;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44D93FA0AD247998CBC962E113960932 /* Build configuration list for PBXNativeTarget "MXCaches" */ = {
+		160D37673C3DFA5E078E31EF1F723D21 /* Build configuration list for PBXNativeTarget "Pods-MXCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA6245E272ECDEC29861D040730D77B1 /* Debug */,
-				96BFE468AA372D8E41067DAC77B99A29 /* Release */,
+				DC1F37904D5A1B69CE240115757BD37C /* Debug */,
+				DF172C40095AB047BADD72827ECCE6F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -819,20 +825,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AB4009755A5B172351B31924255A11C /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+		67839C17DF0477D3347635E16D6AF3EB /* Build configuration list for PBXNativeTarget "MXCaches" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				204753D3A449D98B680C6B8C110F8504 /* Debug */,
-				30D4DD44837D963A898D4D2A146E2B67 /* Release */,
+				3208BE7555ADB6A344B315364D39D99E /* Debug */,
+				ECA6927FDDE063B45D7D877ABCC32165 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79FD75BED3574692F9D5B6F1640B8482 /* Build configuration list for PBXNativeTarget "Pods-MXCache" */ = {
+		F20C87A0023622EB41E49C422519E36B /* Build configuration list for PBXNativeTarget "YYCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F785418F5B45A3A607958DF8CD253E5 /* Debug */,
-				BA24229097DD0B218009BD6651C2D367 /* Release */,
+				0D4CF7FDC6D9BEEC0620BA2E51317497 /* Debug */,
+				D69524F9A870A361ACEB50E45AA66897 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

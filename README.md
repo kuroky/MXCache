@@ -2,6 +2,12 @@
 
 ### 功能
 将偏底层的`YYCache`封装成上层调用API
+
+✅ 统一的header处理
+✅ 统一的模型解析处理，Response解析基类modle
+✅ 单独接口的耗时检查
+![提示](Resource/2020-10-14.png)
+
 ### 安装
 #### 1.CocoaPod安装
 
